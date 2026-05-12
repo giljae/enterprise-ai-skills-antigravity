@@ -11,13 +11,28 @@ This repository adapts that source material into an Antigravity-native layout wi
 ## Install
 
 ```bash
-./scripts/install_antigravity.sh
+npm install -g https://github.com/giljae/enterprise-ai-skills-antigravity
 ```
 
-This validates the source tree, backs up any existing installation, and installs to:
+This will automatically validate the source tree and install the skills to:
 
 ```text
 ~/.gemini/antigravity/skills/enterprise-ai/
+```
+
+You can also manage the installation using the CLI tool:
+
+```bash
+enterprise-ai-skills install
+enterprise-ai-skills uninstall --remove-backups
+```
+
+## Manual Install (Legacy)
+
+If you prefer to install manually:
+
+```bash
+./scripts/install_antigravity.sh
 ```
 
 ## Uninstall

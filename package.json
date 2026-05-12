@@ -1,0 +1,33 @@
+{
+  "name": "enterprise-ai-skills-antigravity",
+  "version": "0.1.0",
+  "description": "Enterprise AI Skills for Antigravity - Consulting and PM workflows",
+  "main": "index.js",
+  "bin": {
+    "enterprise-ai-skills": "./scripts/cli.js"
+  },
+  "scripts": {
+    "postinstall": "bash scripts/install_antigravity.sh",
+    "postuninstall": "bash scripts/uninstall_antigravity.sh",
+    "install-skills": "bash scripts/install_antigravity.sh",
+    "uninstall-skills": "bash scripts/uninstall_antigravity.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giljae/enterprise-ai-skills-antigravity.git"
+  },
+  "keywords": [
+    "antigravity",
+    "ai",
+    "skills",
+    "enterprise",
+    "consulting",
+    "pm"
+  ],
+  "author": "Giljae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giljae/enterprise-ai-skills-antigravity/issues"
+  },
+  "homepage": "https://github.com/giljae/enterprise-ai-skills-antigravity#readme"
+}

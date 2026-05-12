@@ -11,13 +11,28 @@
 ## 설치
 
 ```bash
-./scripts/install_antigravity.sh
+npm install -g https://github.com/giljae/enterprise-ai-skills-antigravity
 ```
 
-이 명령은 소스 트리를 검증하고, 기존 설치본이 있으면 백업한 뒤, 다음 경로에 설치합니다.
+이 명령을 실행하면 자동으로 소스 트리를 검증하고 다음 경로에 스킬을 설치합니다.
 
 ```text
 ~/.gemini/antigravity/skills/enterprise-ai/
+```
+
+CLI 도구를 사용하여 설치를 관리할 수도 있습니다.
+
+```bash
+enterprise-ai-skills install
+enterprise-ai-skills uninstall --remove-backups
+```
+
+## 수동 설치 (기존 방식)
+
+직접 스크립트를 실행하여 설치하려면:
+
+```bash
+./scripts/install_antigravity.sh
 ```
 
 ## 제거
