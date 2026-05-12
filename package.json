@@ -16,8 +16,8 @@
     "index.js"
   ],
   "scripts": {
-    "postinstall": "node scripts/cli.js install",
-    "postuninstall": "node scripts/cli.js uninstall",
+    "postinstall": "node scripts/cli.js install || echo 'Automatic install failed. Please run: enterprise-ai-skills install'",
+    "postuninstall": "node scripts/cli.js uninstall || true",
     "install-skills": "node scripts/cli.js install",
     "uninstall-skills": "node scripts/cli.js uninstall"
   },
