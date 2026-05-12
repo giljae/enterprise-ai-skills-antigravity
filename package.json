@@ -6,11 +6,19 @@
   "bin": {
     "enterprise-ai-skills": "./scripts/cli.js"
   },
+  "files": [
+    "antigravity",
+    "scripts",
+    "README.md",
+    "README_KO.md",
+    "LICENSE",
+    "VERSION"
+  ],
   "scripts": {
-    "postinstall": "bash scripts/install_antigravity.sh",
-    "postuninstall": "bash scripts/uninstall_antigravity.sh",
-    "install-skills": "bash scripts/install_antigravity.sh",
-    "uninstall-skills": "bash scripts/uninstall_antigravity.sh"
+    "postinstall": "bash ./scripts/install_antigravity.sh",
+    "postuninstall": "bash ./scripts/uninstall_antigravity.sh",
+    "install-skills": "bash ./scripts/install_antigravity.sh",
+    "uninstall-skills": "bash ./scripts/uninstall_antigravity.sh"
   },
   "repository": {
     "type": "git",
