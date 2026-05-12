@@ -12,7 +12,8 @@
     "README.md",
     "README_KO.md",
     "LICENSE",
-    "VERSION"
+    "VERSION",
+    "index.js"
   ],
   "scripts": {
     "postinstall": "node scripts/cli.js install",
