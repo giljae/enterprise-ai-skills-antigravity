@@ -15,10 +15,10 @@
     "VERSION"
   ],
   "scripts": {
-    "postinstall": "bash ./scripts/install_antigravity.sh",
-    "postuninstall": "bash ./scripts/uninstall_antigravity.sh",
-    "install-skills": "bash ./scripts/install_antigravity.sh",
-    "uninstall-skills": "bash ./scripts/uninstall_antigravity.sh"
+    "postinstall": "node scripts/cli.js install",
+    "postuninstall": "node scripts/cli.js uninstall",
+    "install-skills": "node scripts/cli.js install",
+    "uninstall-skills": "node scripts/cli.js uninstall"
   },
   "repository": {
     "type": "git",
